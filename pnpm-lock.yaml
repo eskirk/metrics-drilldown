@@ -88,8 +88,8 @@ importers:
         specifier: ^1.7.2
         version: 1.7.3(@openfeature/core@1.11.0)
       '@prometheus-io/lezer-promql':
-        specifier: ^0.311.0
-        version: 0.311.2(@lezer/highlight@1.2.3)(@lezer/lr@1.4.8)
+        specifier: ^0.313.0
+        version: 0.313.1(@lezer/highlight@1.2.3)(@lezer/lr@1.4.8)
       compare-versions:
         specifier: ^6.1.1
         version: 6.1.1
@@ -1531,8 +1531,8 @@ packages:
       '@lezer/highlight': ^1.1.2
       '@lezer/lr': ^1.2.3
 
-  '@prometheus-io/lezer-promql@0.311.2':
-    resolution: {integrity: sha512-BnfB/L1rquxDSPU6BRO2vuvjhoR3VrvwCgAiPelDBPln72cX7XTAZ0sK7oQSGh8L4EYx2yjlIN+mcvir3Yib9A==}
+  '@prometheus-io/lezer-promql@0.313.1':
+    resolution: {integrity: sha512-upd5wLz9WtpNVgkbqitbtG2daN5GNQaokG3NPU/PG7aT3xBTba1sfYb3yf9/CzPMeKbqDv8Y9KHzZ3vvQtg17w==}
     peerDependencies:
       '@lezer/highlight': ^1.1.2
       '@lezer/lr': ^1.2.3
@@ -6253,14 +6253,14 @@ snapshots:
       '@codemirror/language': 6.12.4
       '@codemirror/state': 6.7.0
       '@codemirror/view': 6.43.4
-      '@lezer/common': 1.5.1
+      '@lezer/common': 1.5.2
 
   '@codemirror/commands@6.10.4':
     dependencies:
       '@codemirror/language': 6.12.4
       '@codemirror/state': 6.7.0
       '@codemirror/view': 6.43.4
-      '@lezer/common': 1.5.1
+      '@lezer/common': 1.5.2
 
   '@codemirror/lang-json@6.0.2':
     dependencies:
@@ -6280,9 +6280,9 @@ snapshots:
     dependencies:
       '@codemirror/state': 6.7.0
       '@codemirror/view': 6.43.4
-      '@lezer/common': 1.5.1
+      '@lezer/common': 1.5.2
       '@lezer/highlight': 1.2.3
-      '@lezer/lr': 1.4.3
+      '@lezer/lr': 1.4.8
       style-mod: 4.1.3
 
   '@codemirror/lint@6.9.7':
@@ -7464,7 +7464,7 @@ snapshots:
 
   '@lezer/highlight@1.2.3':
     dependencies:
-      '@lezer/common': 1.5.1
+      '@lezer/common': 1.5.2
 
   '@lezer/json@1.0.3':
     dependencies:
@@ -7478,7 +7478,7 @@ snapshots:
 
   '@lezer/lr@1.4.8':
     dependencies:
-      '@lezer/common': 1.5.1
+      '@lezer/common': 1.5.2
 
   '@marijn/find-cluster-break@1.0.3': {}
 
@@ -7707,7 +7707,7 @@ snapshots:
       '@lezer/highlight': 1.2.3
       '@lezer/lr': 1.4.8
 
-  '@prometheus-io/lezer-promql@0.311.2(@lezer/highlight@1.2.3)(@lezer/lr@1.4.8)':
+  '@prometheus-io/lezer-promql@0.313.1(@lezer/highlight@1.2.3)(@lezer/lr@1.4.8)':
     dependencies:
       '@lezer/highlight': 1.2.3
       '@lezer/lr': 1.4.8
@@ -8834,7 +8834,7 @@ snapshots:
 
   babel-plugin-macros@3.1.0:
     dependencies:
-      '@babel/runtime': 7.28.6
+      '@babel/runtime': 7.29.7
       cosmiconfig: 7.1.0
       resolve: 1.22.11
 
@@ -11174,7 +11174,7 @@ snapshots:
 
   parse-json@5.2.0:
     dependencies:
-      '@babel/code-frame': 7.29.0
+      '@babel/code-frame': 7.29.7
       error-ex: 1.3.4
       json-parse-even-better-errors: 2.3.1
       lines-and-columns: 1.2.4
